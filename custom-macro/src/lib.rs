@@ -1,21 +1,20 @@
-// use anchor_lang::prelude::*;
 use proc_macro::TokenStream;
 use quote::*;
 use syn::*;
 
-#[proc_macro_derive(Instructions)]
-pub fn my_macro(input: TokenStream) -> TokenStream {
+#[proc_macro_derive(InstructionBuilder)]
+pub fn instruction_builder(input: TokenStream) -> TokenStream {
     let DeriveInput { ident, data, .. } = parse_macro_input!(input);
 
     let fields = match data {
         syn::Data::Struct(s) => match s.fields {
             syn::Fields::Named(n) => n.named,
-            _ => unimplemented!(),
+            _ => panic!("The syn::Data variant is not supported: {:#?}", s.fields),
         },
-        _ => unimplemented!(),
+        _ => panic!("The syn::Fields variant is not supported: {:#?}", data),
     };
 
-    let instruction = fields.iter().map(|f| {
+    let update_instruction = fields.into_iter().map(|f| {
         let name = &f.ident;
         let ty = &f.ty;
         let fname = format_ident!("update_{}", name.clone().unwrap());
@@ -31,18 +30,8 @@ pub fn my_macro(input: TokenStream) -> TokenStream {
 
     let expanded = quote! {
         impl #ident {
-            #(#instruction)*
+            #(#update_instruction)*
         }
-
-        // #[derive(Accounts)]
-        // pub struct UpdateAdminAccount<'info> {
-        //     pub auth: Signer<'info>,
-        //     #[account(
-        //         mut,
-        //         has_one = auth,
-        //     )]
-        //     pub admin_account: Account<'info, #ident>
-        // }
     };
     expanded.into()
 }
