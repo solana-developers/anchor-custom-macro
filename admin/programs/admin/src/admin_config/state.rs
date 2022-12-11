@@ -1,8 +1,5 @@
-use crate::admin_update::UpdateAdminAccount;
 use anchor_lang::prelude::*;
-use custom_macro::InstructionBuilder;
 
-#[derive(InstructionBuilder)]
 #[account]
 pub struct Config {
     pub auth: Pubkey,

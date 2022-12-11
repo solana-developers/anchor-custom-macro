@@ -5,11 +5,9 @@ import { assert } from "chai"
 import { Admin } from "../target/types/admin"
 
 describe("admin", () => {
-  // Configure the client to use the local cluster.
   anchor.setProvider(anchor.AnchorProvider.env())
 
   const program = anchor.workspace.Admin as Program<Admin>
-  const wallet = anchor.workspace.Admin.provider.wallet
 
   const adminConfig = findProgramAddressSync(
     [Buffer.from("admin")],
@@ -17,7 +15,6 @@ describe("admin", () => {
   )[0]
 
   it("Is initialized!", async () => {
-    // Add your test here.
     const tx = await program.methods
       .initialize()
       .accounts({
@@ -31,7 +28,6 @@ describe("admin", () => {
       .updateBool(false)
       .accounts({
         adminAccount: adminConfig,
-        // auth: wallet.publickey,
       })
       .rpc()
 
@@ -46,7 +42,6 @@ describe("admin", () => {
       .updateFirstNumber(100)
       .accounts({
         adminAccount: adminConfig,
-        // auth: wallet.publickey,
       })
       .rpc()
 
@@ -61,7 +56,6 @@ describe("admin", () => {
       .updateSecondNumber(new anchor.BN(200))
       .accounts({
         adminAccount: adminConfig,
-        // auth: wallet.publickey,
       })
       .rpc()
 
@@ -78,7 +72,6 @@ describe("admin", () => {
       .updateAuth(keypair.publicKey)
       .accounts({
         adminAccount: adminConfig,
-        // auth: wallet.publickey,
       })
       .rpc()
 
