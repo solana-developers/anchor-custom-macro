@@ -9,9 +9,9 @@ pub fn instruction_builder(input: TokenStream) -> TokenStream {
     let fields = match data {
         syn::Data::Struct(s) => match s.fields {
             syn::Fields::Named(n) => n.named,
-            _ => panic!("The syn::Data variant is not supported: {:#?}", s.fields),
+            _ => panic!("The syn::Fields variant is not supported: {:#?}", s.fields),
         },
-        _ => panic!("The syn::Fields variant is not supported: {:#?}", data),
+        _ => panic!("The syn::Data variant is not supported: {:#?}", data),
     };
 
     let update_instruction = fields.into_iter().map(|f| {
