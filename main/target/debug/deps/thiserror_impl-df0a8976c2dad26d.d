@@ -1,0 +1,12 @@
+/home/johnliu/anchor-course/macros/test-macro/main/target/debug/deps/libthiserror_impl-df0a8976c2dad26d.so: /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/lib.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/ast.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/attr.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/expand.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/fmt.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/generics.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/prop.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/valid.rs
+
+/home/johnliu/anchor-course/macros/test-macro/main/target/debug/deps/thiserror_impl-df0a8976c2dad26d.d: /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/lib.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/ast.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/attr.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/expand.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/fmt.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/generics.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/prop.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/valid.rs
+
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/lib.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/ast.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/attr.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/expand.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/fmt.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/generics.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/prop.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.37/src/valid.rs:

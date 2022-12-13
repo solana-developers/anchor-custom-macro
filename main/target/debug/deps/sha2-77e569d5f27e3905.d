@@ -1,0 +1,13 @@
+/home/johnliu/anchor-course/macros/test-macro/main/target/debug/deps/sha2-77e569d5f27e3905.rmeta: /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/lib.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/core_api.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha256.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha512.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/consts.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha256/soft.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha256/x86.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha512/soft.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha512/x86.rs
+
+/home/johnliu/anchor-course/macros/test-macro/main/target/debug/deps/sha2-77e569d5f27e3905.d: /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/lib.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/core_api.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha256.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha512.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/consts.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha256/soft.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha256/x86.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha512/soft.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha512/x86.rs
+
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/lib.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/core_api.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha256.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha512.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/consts.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha256/soft.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha256/x86.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha512/soft.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/sha2-0.10.6/src/sha512/x86.rs:

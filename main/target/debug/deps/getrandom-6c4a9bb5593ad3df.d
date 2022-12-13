@@ -1,0 +1,12 @@
+/home/johnliu/anchor-course/macros/test-macro/main/target/debug/deps/getrandom-6c4a9bb5593ad3df.rmeta: /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/lib.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/error.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/util.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/util_libc.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/use_file.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/linux_android.rs
+
+/home/johnliu/anchor-course/macros/test-macro/main/target/debug/deps/libgetrandom-6c4a9bb5593ad3df.rlib: /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/lib.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/error.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/util.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/util_libc.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/use_file.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/linux_android.rs
+
+/home/johnliu/anchor-course/macros/test-macro/main/target/debug/deps/getrandom-6c4a9bb5593ad3df.d: /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/lib.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/error.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/util.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/util_libc.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/use_file.rs /home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/linux_android.rs
+
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/lib.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/error.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/util.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/util_libc.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/use_file.rs:
+/home/johnliu/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.8/src/linux_android.rs:
