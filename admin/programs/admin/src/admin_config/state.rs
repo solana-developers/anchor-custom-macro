@@ -1,6 +1,7 @@
-use anchor_lang::prelude::*;
+use anchor_lang::{prelude::*, Discriminator};
 
 #[account]
+#[derive(InitSpace)]
 pub struct Config {
     pub auth: Pubkey,
     pub bool: bool,
@@ -9,5 +10,5 @@ pub struct Config {
 }
 
 impl Config {
-    pub const LEN: usize = 8 + 32 + 1 + 1 + 8;
+    pub const LEN: usize = Config::DISCRIMINATOR.len() + Config::INIT_SPACE;
 }
