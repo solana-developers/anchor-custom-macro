@@ -9,7 +9,7 @@ edition = "2021"
 proc-macro = true
 
 [dependencies]
-syn = "1.0.105"
-quote = "1.0.21"
-proc-macro2 = "0.4"
-anchor-lang = "0.25.0"
+syn = "2.0.77"
+quote = "1.0.37"
+proc-macro2 = "1.0.86"
+anchor-lang.workspace = true
