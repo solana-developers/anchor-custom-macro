@@ -13,18 +13,18 @@ pub mod admin {
     }
 
     pub fn update_auth(ctx: Context<UpdateAdminAccount>, new_value: Pubkey) -> Result<()> {
-        Config::update_auth(ctx, new_value)
+        UpdateAdminAccount::update_auth(ctx, new_value)
     }
 
     pub fn update_bool(ctx: Context<UpdateAdminAccount>, new_value: bool) -> Result<()> {
-        Config::update_bool(ctx, new_value)
+        UpdateAdminAccount::update_bool(ctx, new_value)
     }
 
     pub fn update_first_number(ctx: Context<UpdateAdminAccount>, new_value: u8) -> Result<()> {
-        Config::update_first_number(ctx, new_value)
+        UpdateAdminAccount::update_first_number(ctx, new_value)
     }
 
     pub fn update_second_number(ctx: Context<UpdateAdminAccount>, new_value: u64) -> Result<()> {
-        Config::update_second_number(ctx, new_value)
+        UpdateAdminAccount::update_second_number(ctx, new_value)
     }
 }

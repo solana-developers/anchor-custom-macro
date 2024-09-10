@@ -1,9 +1,7 @@
-use crate::admin_update::UpdateAdminAccount;
-use anchor_lang::prelude::*;
-use custom_macro::InstructionBuilder;
+use anchor_lang::{prelude::*, Discriminator};
 
-#[derive(InstructionBuilder)]
 #[account]
+#[derive(InitSpace)]
 pub struct Config {
     pub auth: Pubkey,
     pub bool: bool,
@@ -12,5 +10,5 @@ pub struct Config {
 }
 
 impl Config {
-    pub const LEN: usize = 8 + 32 + 1 + 1 + 8;
+    pub const LEN: usize = Config::DISCRIMINATOR.len() + Config::INIT_SPACE;
 }
