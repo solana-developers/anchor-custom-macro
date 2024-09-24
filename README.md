@@ -1,1 +1,1 @@
-Code used in the Anchor custom macro lesson.
+Example code used in the Rust macros lesson.
